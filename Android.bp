@@ -25895,6 +25895,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/nfc_nci.nqx.default.hw.v1.so",
             ],
             shared_libs: [
+                "libbase_shim",
                 "android.hardware.nfc@1.0",
                 "android.hardware.nfc@1.1",
                 "android.hardware.nfc@1.2",
