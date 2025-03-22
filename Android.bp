@@ -14049,6 +14049,7 @@ cc_prebuilt_library_shared {
                 "vendor.qti.latency@2.1",
                 "vendor.qti.hardware.mwqemadapter@1.0",
                 "vendor.qti.data.mwqem@1.0",
+                "libwpa_client",
                 "android.hardware.wifi.hostapd@1.0",
                 "android.hardware.wifi.supplicant@1.0",
                 "libc++",
@@ -14059,7 +14060,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
-    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
@@ -16997,6 +16997,7 @@ cc_prebuilt_library_shared {
                 "libcne",
                 "libqmi",
                 "libqmiservices",
+                "libwpa_client",
                 "libandroid_net",
                 "libcneqmiutils",
                 "vendor.qti.hardware.data.cne.internal.api@1.0",
@@ -17012,7 +17013,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
-    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
@@ -35608,6 +35608,7 @@ cc_prebuilt_binary {
                 "libloc_mq_client",
                 "liblog",
                 "libnl",
+                "libwpa_client",
                 "liblowi_common",
                 "libqmi_cci",
                 "libqmi_common_so",
@@ -35620,7 +35621,6 @@ cc_prebuilt_binary {
         },
     },
     compile_multilib: "64",
-    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -36463,6 +36463,7 @@ cc_prebuilt_binary {
                 "libidl",
                 "libandroid_net",
                 "libhidlbase",
+                "libwpa_client",
                 "libbinder",
                 "libc++",
                 "libc",
@@ -36472,7 +36473,6 @@ cc_prebuilt_binary {
         },
     },
     compile_multilib: "64",
-    check_elf_files: false,
     strip: {
         none: true,
     },
